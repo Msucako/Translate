@@ -1,0 +1,8 @@
+from translate import Translator
+
+# Türkçe'den İngilizce'ye çevirmen oluşturma
+translator = Translator(from_lang="tr", to_lang="en")
+
+# Metin çevirisi
+translation = translator.translate("Merhaba, nasılsınız?")
+print(translation)  # Hello, how are you?
